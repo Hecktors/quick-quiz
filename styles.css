@@ -1,3 +1,7 @@
+body {
+    font-family: sans-serif;
+}
+
 a {
     display: block;
     padding: 5px 0;
@@ -7,12 +11,13 @@ details {
     display: block;
     line-height: 1.6;
     margin: 20px 0;
+    font-weight: 300;
     background-color: #eee;
     user-select: none;
 }
 
 summary {
+    font-weight: 400;
     background-color: #fff;
-    /* padding: 3px 0; */
     outline: none;
 }
