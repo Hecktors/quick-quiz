@@ -1,0 +1,17 @@
+a {
+    display: block;
+    padding: 5px 0;
+}
+
+details {
+    display: block;
+    line-height: 2;
+    margin: 10px 0;
+    background-color: #eee;
+}
+
+summary {
+    background-color: #fff;
+    padding: 5px 0;
+    outline: none;
+}
