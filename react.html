@@ -81,18 +81,47 @@
         </details>
         <details>
             <summary>
-                What is the job of the React package?
+                What is the job of the React?
             </summary>
             Building and managing the virtual DOM, a HTML-tree like strutured object
         </details>
         <details>
             <summary>
-                What is the job of the ReactDom package?
+                What is the job of the ReactDom?
             </summary>
             Building the HTML tree (DOM), it's the glue between React and the DOM
+        </details>
+        <details>
+            <summary>
+                What are the pros of styled components?
+            </summary>
+            - renders inline styles, immediately available<br />
+            - unique classnames<br />
+            - direct in componets<br />
+            - dynamit styles posible<br />
+            - automatic prefixes
+        </details>
+        <details>
+            <summary>
+                How to add dynamic styles with styled components
+            </summary>
+            background-color: ${({ bgColor }) => bgColor ?? 'blue'};
+        </details>
+        <details>
+            <summary>
+                How to include classname of element with styled components
+            </summary>
+            import styled from ‘styled-components/macro’
+        </details>
+        <details>
+            <summary>
+                How and where to set global styles?
+            </summary>
+            GlobalStyles.js<br />
+            import {createGlobalStyle} from ‘styled-components’
+
         </details>
     </main>
 </body>
 
 </html>
-ReactDOM.findDOMNode()
