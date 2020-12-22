@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <a href="./index.html">back</a>
+    <details>
+        <summary>
+            What is the difference between the virtual DOM and the real DOM?
+        </summary>
+        Das Dom representiert ein HMTL Document as Baumstruktur, in dem jede Node einen Teil des Documentes
+        representiert (z.B. Elemente, Element-Attribute, text)<br />
+        JavaScript hat durch die DomAPI zugriff auf die Elemente. Bei jeder Änderung durchsucht der erstellt der Browser
+        ein komplett neues DOM<br />
+        React nutzt eine virtuelle DOM. Bei Änderungung wird eine neue VDOM erstellt, Änderungen verglichen und updated
+        die DOM effectiver
+    </details>
+    <details>
+        <summary>
+            What is the difference between the virtual DOM and the real DOM?
+        </summary>
+        Das Dom representiert ein HMTL Document as Baumstruktur, in dem jede Node einen Teil des Documentes
+        representiert (z.B. Elemente, Element-Attribute, text)<br />
+        JavaScript hat durch die DomAPI zugriff auf die Elemente. Bei jeder Änderung durchsucht der erstellt der Browser
+        ein
+        komplett neues DOM<br />
+        React nutzt eine virtuelle DOM. Bei Änderungung wird eine neue VDOM erstellt, Änderungen verglichen und updated
+        die
+        DOM effectiver
+    </details>
+    <details>
+        <summary>
+            What is JSX?
+        </summary>
+        JSX is syntatic sugar for the React.createElement function
+    </details>
+    <details>
+        <summary>
+            Wie überreiche ich einen Wert von Parent zu Child?
+        </summary>
+        Der Wert wird als Props übergeben.
+    </details>
+    <details>
+        <summary>
+            Wie übergebe ich einen Wert von Child zu Parent?
+        </summary>
+        Es muss dem Child eine im Parent erstellte Funktion übergeben werden, die vom Child mit dem Wert als Parameter
+        aufgerufen wird.
+    </details>
+    <details>
+        <summary>
+            Was ist Prop drilling?
+        </summary>
+        Eine Komponente empfängt einen Wert vom Parent und gibt es, ohne es selber zu nutzen, an das Kind weiter.
+    </details>
+    <details>
+        <summary>
+            Was sind die Cons von ContextAPI
+        </summary>
+        Wenn ein Wert geändert wird, werden alle Komponenten neu gerendert. Deshalb bei Etwas benutzen, was mögl. viele
+        Komoponente betrifft( Theming)
+    </details>
+    <details>
+        <summary>
+            Was ist ein Fragment?
+        </summary>
+        Eine Möglichkeit mehrere child elementen zum umschließen, ohne ein zus. div benutzen zu müssen.
+    </details>
+    <details>
+        <summary>
+            Wann muss man Klassen Komponenten benutzen?
+        </summary>
+        Wenn man lifecyle Methoden nutzen muss für die es noch keine Hooks Alternative gibt.
+    </details>
+    <details>
+        <summary>
+            Was ist eine HOC?
+        </summary>
+        Eine Komponente, die einen andere Komponente entgegennimmt und diese modifiziert weitergibt.
+    </details>
+    <details>
+        <summary>
+            Was sind controlled Components?
+        </summary>
+        Input Komponente, wie input, textarea oder select, dessen Werte von React kontrolliert werden.
+    </details>
+
+
+</body>
